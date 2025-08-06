@@ -28,6 +28,18 @@
 
 
 /*Comandi generali*/
+
+body{
+    background-color: #0f172a;
+    padding-top: 96px;
+    /*animation: fadeIn 1s ease-out forwards;*/
+}
+
+section {
+  scroll-margin-top: 105px; 
+}
+
+/*Navbar*/
 .custom-navbar {
     background-color: #202d4a;
 }
@@ -36,13 +48,7 @@
     transition: background-color 0.3s ease;
 }
 
-body{
-    background-color: #0f172a;
-    padding-top: 96px;
-    /*animation: fadeIn 1s ease-out forwards;*/
-}
 
-/* Cambia colore hamburger menu */
 .navbar-toggler {
     border-color: #fff; 
 }
