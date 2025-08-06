@@ -1,12 +1,12 @@
 # 🌐 Portfolio Personale – Giuseppe Gravagno
 
 Benvenut* nel repository del mio portfolio personale, un sito web che presenta chi sono, i miei progetti e le competenze che sto acquisendo nel mio percorso da **junior web developer**.
-
+Il sito è sempre in continua aggiornamento, in modo tale da poter aggiungere tutte le features che imparo nel corso del tempo
 ---
 
 ## 👨‍💻 Su di me
 
-Mi chiamo [Il Tuo Nome] e attualmente studio presso la **Steve Jobs Academy di Catania**.  
+Mi chiamo Giuseppe Gravagnop e attualmente studio presso la **Steve Jobs Academy di Catania**.  
 Sto imparando le basi del web development e ho deciso di costruire questo sito come vetrina per i miei progressi e i progetti personali.
 
 Questo sito rappresenta **una tappa del mio percorso di crescita**, e continuerà ad evolversi insieme alle mie competenze.
