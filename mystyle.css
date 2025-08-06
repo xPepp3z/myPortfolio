@@ -119,6 +119,8 @@ body{
     color: #f1f5f9;
     border-radius: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 22rem;
+    width: 100%;
 }
 .my_card:hover {
     transform: scale(1.05);
