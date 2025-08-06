@@ -1,8 +1,7 @@
 # 🌐 Portfolio Personale – Giuseppe Gravagno
 
 Benvenut* nel repository del mio portfolio personale, un sito web che presenta chi sono, i miei progetti e le competenze che sto acquisendo nel mio percorso da **junior web developer**.
-Il sito è sempre in continua aggiornamento, in modo tale da poter aggiungere tutte le features che imparo nel corso del tempo
----
+--
 
 ## 👨‍💻 Su di me
 
