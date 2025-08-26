@@ -1,20 +1,21 @@
-# 🌐 Portfolio Personale – Giuseppe Gravagno
+# 🌐 Personal Portfolio – Giuseppe Gravagno
 
-Benvenut* nel repository del mio portfolio personale, un sito web che presenta chi sono, i miei progetti e le competenze che sto acquisendo nel mio percorso da **junior web developer**.
+Welcome to my personal portfolio repository, a website showcasing who I am, my projects, and the skills I'm acquiring on my journey as a junior web developer.
 --
 
-## 👨‍💻 Su di me
+## 👨‍💻 About Me
 
-Mi chiamo Giuseppe Gravagnop e attualmente studio presso la **Steve Jobs Academy di Catania**.  
-Sto imparando le basi del web development e ho deciso di costruire questo sito come vetrina per i miei progressi e i progetti personali.
+My name is Giuseppe Gravagnop and I'm currently studying at the **Steve Jobs Academy in Catania**.
 
-Questo sito rappresenta **una tappa del mio percorso di crescita**, e continuerà ad evolversi insieme alle mie competenze.
+I'm learning the basics of web development and have decided to build this website as a showcase for my progress and personal projects.
 
-> 🛠️ *Work in progress – Sto ancora imparando!*
+This website represents a milestone in my growth journey and will continue to evolve along with my skills.
+
+> 🛠️ *Work in progress – Still learning!*
 
 ---
 
-## 🧩 Tecnologie usate
+## 🧩 Technologies used
 
 - **HTML5**
 - **CSS3**
@@ -22,39 +23,38 @@ Questo sito rappresenta **una tappa del mio percorso di crescita**, e continuer�
 - **JavaScript**
 - **Git & GitHub**
 - **Responsive Design**
-- **GitHub Pages** (per il deploy)
+- **GitHub Pages** (for deployment)
 
 ---
 
-## 📁 Struttura del sito
+## 📁 Site Structure
 
-- `index.html`: Pagina principale con la presentazione
-- `about.html`: Sezione "Chi sono"
-- `projects.html`: I miei progetti
-- `contact.html`: Contatti e link social
-- `/css/style.css`: Stile personalizzato
-- `/img/`: Immagini e risorse grafiche
+- `index.html`: Main page with the presentation
+- `about.html`: "About me" section
+- `projects.html`: My projects
+- `contact.html`: Contact details and social media links
+- `/css/style.css`: Custom style
+- `/img/`: Images and graphic resources
 
 ---
 
-## 🔗 Sito Online
+## 🔗 Online Site
 
-👉 Puoi visitare il sito live qui:  
+👉 You can visit the live site here:
 [(https://xpepp3z.github.io/myPortfolio)]
 
 ---
 
-## 🤝 Contatti
+## 🤝 Contacts
 
-- Email: `giuseppegravagno57@gmail.com`
-- Email scolastica: `giuseppe.gravagno@stevejobs.academy`
+- Email: giuseppegravagno57@gmail.com
+- School email: giuseppe.gravagno@stevejobs.academy
 - LinkedIn: [(https://www.linkedin.com/in/giuseppe-gravagno-955627365)]
 - GitHub: [(https://github.com/xpepp3z)]
 
 ---
 
-## 📌 Note finali
+## 📌 Final Notes
 
-Sono aperto a suggerimenti e consigli, ogni feedback è benvenuto!  
-Grazie per aver visitato questo repo!
-
+I'm open to suggestions and advice; any feedback is welcome!
+Thanks for visiting this repo!
