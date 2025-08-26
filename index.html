@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Il mio portfolio personale per mostrare tutti i miei progetti e competenze come sviluppatore web.">
+    <meta name="keywords" content="portfolio, web developer, projects, skills">
+    <meta name="author" content="Giuseppe Gravagno">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>MyPortfolio</title>
+</head>
+
+<body >
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand me-4"><img src="img/logo_GG.jpg" alt="Logo" width="70" height="70"
+                    class="mylogo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2 d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link my_text_nav" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my_text_nav" href="#progetti">Progetti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my_text_nav" href="#chi-sono">Chi sono</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled my_text_nav" href="#about-me">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my_text_nav" href="#contatti">Contatti</a>
+                    </li>
+                </ul>
+                <a href="CV Giuseppe Gravagno.pdf" class="btn btn-outline-info" target="_blank">Scarica il mio CV</a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar Section -->
+
+    <!-- Hero Section -->
+    <div id="videoCarousel" class="carousel slide" >
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="home">
+
+                <video class="d-block w-100 video-hero" autoplay muted loop>
+                    <source src="video/853919-hd_1920_1080_25fps.mp4" type="video/mp4">
+                </video>
+
+                <div class="carousel-caption top-50 start-50 translate-middle text-center w-100">
+                    <h1 class="my_title_hero">Benvenut* nel mio portfolio</h1>
+
+
+                    <span id="typing" class="my_text_hero"></span>
+
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                    <script class="my_text_hero">
+                        new Typed('#typing', {
+                            strings: ['Scopri i miei progetti e le mie competenze.', 'Esplora il mio portfolio e le mie abilità.', 'Dai un\'occhiata ai miei lavori e alle mie passioni.'],
+                            typeSpeed: 40,
+                            backSpeed: 30,
+                            loop: true
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- Projects Section -->
+    <section id="progetti"  data-aos="fade-up" data-bs-ride="false" data-aos-duration="1000">
+        <div class="container mt-5 mb-4">
+            <div class="row">
+                <h1 class="d-flex justify-content-center align-items-center mb-5 text-white my_title_progetti">Progetti
+                </h1>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card mx-auto my_card">
+                        <img src="img/gestore_passowrd.jpg" class="card-img-top" alt="Anteprima">
+                        <div class="card-body">
+                            <h5 class="card-title my_card_title">Gestore Password</h5>
+                            <p class="card-text">Gestore di password in Java con interfaccia grafica Swing, permette di aggiungere, rimuovere e visualizzare servizi, salvando i dati in un file locale.</p>
+                            <p class="card-text">Linguaggi usati: <span class="my_text_languages">JAVA</span></p>
+                            <a href="https://github.com/xPepp3z/GestorePassword" target="_blank" class="btn btn-primary">Vai alla pagina GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+                    <div class="card mx-auto my_card">
+                        <img src="img/imagenotavabile.jpg" class="card-img-top" alt="Anteprima non disponibile">
+                        <div class="card-body">
+                            <h5 class="card-title my_card_title">Nome progetto</h5>
+                            <p class="card-text">Breve descrizione</p>
+                            <p class="card-text">Linguaggi usati: <span class="my_text_languages">HTML, CSS</span></p>
+                            <a href="#" class="btn btn-primary">Vai alla pagina GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+                    <div class="card mx-auto my_card">
+                        <img src="img/imagenotavabile.jpg" class="card-img-top" alt="Anteprima non disponibile">
+                        <div class="card-body">
+                            <h5 class="card-title my_card_title">Nome progetto</h5>
+                            <p class="card-text">Breve descrizione</p>
+                            <p class="card-text">Linguaggi usati: <span class="my_text_languages">HTML, CSS</span></p>
+                            <a href="#" class="btn btn-primary">Vai alla pagina GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Chi sono Section-->
+
+    <section id="chi-sono" data-aos="fade-up" data-bs-ride="false" data-aos-duration="1000">
+        <div class="container my_container_chi_sono">
+            <div class="row">
+                <div class="d-none d-lg-block col-lg-12 pt-3">
+                    <img src="img/Giuseppe_Gravagno.jpg" class="img-fluid rounded-circle mx-auto d-block my_photo"
+                        alt="Giuseppe Gravagno" width="300" height="300">
+
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-justify-custom pt-4">
+                    <h2 class="text-white my_title_chi_sono pb-3">Chi sono</h2>
+                    <p class="text-white">Mi chiamo Giuseppe Gravagno, ho 22 anni e attualmente studio alla Steve
+                        Jobs Academy a Catania.<br>
+                        Sono appassionato di tecnologia e sviluppo web, con particolare interesse per il frontend. <br>
+                        Sto attualmente seguendo un percorso intensivo che mi permette di crescere ogni giorno come
+                        sviluppatore.<br>
+                        Al momento sto consolidando le mie competenze in HTML, CSS, JavaScript, PHP, e altro ancora
+                        puntando a diventare un full stack developer. <br>L'obiettivo che mi sono posto è quello di
+                        diventare un professionista solido e creativo, pronto a lavorare in team e a contribuire a
+                        progetti significativi.<br>
+                        Credo nella collaborazione, nell’impegno e nella curiosità.<br><br>
+                        🎓 Nota: Sono ancora in fase di formazione, ma sono motivato, puntuale e sempre disponibile a
+                        nuove sfide.</p>
+                </div>
+            </div>
+    </section>
+
+    <!--Chi sono Section fine-->
+
+    <section class="my_contacts" id="contatti">
+        <div class="container-fluid mt-5 pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="my_title_contacts">Alcuni dei miei contatti</h1>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 mb-5 my_contacts_1">
+                    <h1 class="my_contacts_title">Contatti professionali</h1>
+                    <p class="my_contacts_description">Email:</p>
+                    <a href="mailto:giuseppegravagno57@gmail.com" class="my_contacts_email">giuseppegravagno57@gmail.com</a>
+                    <br>
+                    <a href="mailto:giuseppe.gravagno@stevejobs.academy" class="my_contacts_email">giuseppe.gravagno@stevejobs.academy</a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 my_contacts_2">
+                    <h1 class="my_contacts_title">Sono anche sui social</h1>
+                    <br>
+                    <div>
+                    <a href="https://www.facebook.com/giuseppe.gravagno.7" target="_blank"><img src="svg/icons8-facebook-nuovo-64.png" class="img-fluid"></a>
+                    <a href="https://www.instagram.com/giuseppe.gravagno" target="_blank"><img src="svg/icons8-instagram-64.png" class="img-fluid"></a>
+                    <a href="https://www.linkedin.com/in/giuseppe-gravagno-955627365" target="_blank"><img src="svg/icons8-linkedin-64.png" class="img-fluid"></a>
+                    <a href="https://github.com/xpepp3z" target="_blank"><img src="svg/icons8-github-64.png" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+
+</html>

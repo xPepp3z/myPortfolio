@@ -1,0 +1,205 @@
+/*Font Personalizzati*/
+@font-face{
+    font-family: 'Silkscreen';
+    src: url('fonts/Silkscreen-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Merriweather-Italic';
+    src: url('fonts/MerriweatherSans-Italic-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Inter';
+    src: url('fonts/Inter-VariableFont_opsz,wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@keyframes fadeIn {
+  0%   { opacity: 0; transform: translateY(0); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+/*Comandi generali*/
+
+body{
+    background-color: #0f172a;
+    padding-top: 96px;
+}
+
+section {
+  scroll-margin-top: 105px; 
+}
+
+/*Navbar*/
+.custom-navbar {
+    background-color: #202d4a;
+}
+.custom-navbar:hover {
+    background-color: #1e293b;
+    transition: background-color 0.3s ease;
+}
+
+
+.navbar-toggler {
+    border-color: #fff; 
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.my_text_nav{
+    color: rgb(228, 230, 234);
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.my_text_nav:hover{
+    color: #94a3b8;
+}
+.my_text_nav:focus{
+    color: #94a3b8;
+}
+
+.mylogo{
+    border-radius: 50%;
+}
+
+.mylogo:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+/*Hero*/
+
+/* Video responsive: orizzontale su desktop, verticale su mobile */
+.video-hero {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: left;
+    width: 100%;
+    max-height: 90vh;
+    border-radius: 0;
+    
+}
+
+@media (max-width: 576px) {
+    .video-hero {
+        aspect-ratio: 9/16;
+        height: 80vh;
+        max-height: 100vh;
+        width: 100vw;
+        border-radius: 0;
+    }
+}
+
+.my_title_hero{
+    font-family: Silkscreen, sans-serif;
+    font-size: 3.2rem;
+    color: #f1f5f9;
+    padding-bottom: 20px;
+}
+
+.my_text_hero{
+    font-family: Inter, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: #f1f5f9;
+}
+
+/*Card*/
+.my_title_progetti{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 3rem;
+}
+.my_card {
+    background-color: #1e293b;
+    color: #f1f5f9;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 25rem;
+}
+.my_card:hover {
+    transform: scale(1.05);
+    border: 2px solid #3b82f6;
+}
+
+.my_card_title{
+    color: #3b82f6;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem; 
+    font-weight: 600; 
+}
+
+.my_text_languages{
+    color: #10b981;
+    font-size: 1rem;
+}
+
+
+/*Chi sono*/
+
+.my_photo:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.my_container_chi_sono{
+    background-color: #1e293b;
+    color: #f1f5f9;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+}
+.my_title_chi_sono{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 3rem;
+}
+
+.text-justify-custom{
+    text-align:center;
+}
+
+/*Contact*/
+
+.my_contacts{
+    background-color: #1a2336;
+}
+
+.my_title_contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f5f9;
+    font-family: Silkscreen, sans-serif;
+    font-size: 3rem;
+}
+
+.my_contacts_title{
+    color: #b6bdc9;
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.my_contacts_description{
+    color: #b6bdc9;
+    font-family: Merriweather-Italic, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.my_pointer_email{
+    cursor: url('https://cdn.jsdelivr.net/gh/konvajs/assets@master/cursors/point.cur'), pointer;
+}
+
+.my_contacts_email{
+    text-decoration: none;
+}
