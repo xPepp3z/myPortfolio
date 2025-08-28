@@ -13,13 +13,19 @@
     font-style: normal;
 }
 
+    @font-face{
+        font-family: 'Inter';
+        src: url('fonts/Inter-VariableFont_opsz,wght.ttf');
+        font-weight: normal;
+        font-style: normal;
+    }
+
 @font-face{
-    font-family: 'Inter';
-    src: url('fonts/Inter-VariableFont_opsz,wght.ttf');
+    font-family: 'RobotoMono';
+    src: url('fonts/RobotoMono-VariableFont_wght.ttf');
     font-weight: normal;
     font-style: normal;
 }
-
 
 @keyframes fadeIn {
   0%   { opacity: 0; transform: translateY(0); }
@@ -57,7 +63,7 @@ section {
 
 .my_text_nav{
     color: rgb(228, 230, 234);
-    font-family: Inter, sans-serif;
+    font-family: RobotoMono, sans-serif;
     font-size: 1rem;
     font-weight: 300;
 }
@@ -77,6 +83,9 @@ section {
     transition: transform 0.4s ease;
 }
 
+.my_button_cv{
+    font-family: RobotoMono, sans-serif;
+}
 
 /*Hero*/
 
@@ -109,7 +118,7 @@ section {
 }
 
 .my_text_hero{
-    font-family: Inter, sans-serif;
+    font-family: RobotoMono, sans-serif;
     font-size: 1.1rem;
     font-weight: 100;
     color: #f1f5f9;
@@ -125,7 +134,7 @@ section {
     color: #f1f5f9;
     border-radius: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 22rem;
+    max-width: 25rem;
 }
 .my_card:hover {
     transform: scale(1.05);
@@ -144,8 +153,19 @@ section {
     font-size: 1rem;
 }
 
+.card-text {
+    font-family: RobotoMono, sans-serif;
+    font-size: 0.97rem;
+    font-weight: 400;
+    color: #f1f5f9;
+}
+
 
 /*Chi sono*/
+
+.my_photo{
+    
+}
 
 .my_photo:hover{
     transform: scale(1.1);
@@ -168,6 +188,13 @@ section {
     text-align:center;
 }
 
+.my_text_chi_sono{
+    font-family: RobotoMono, sans-serif;
+    font-size: 0.97rem;
+    font-weight: 400;
+    color: #f1f5f9;
+}
+
 /*Contact*/
 
 .my_contacts{
@@ -185,8 +212,8 @@ section {
 
 .my_contacts_title{
     color: #b6bdc9;
-    font-family: Inter, sans-serif;
-    font-size: 1.5rem;
+    font-family: RobotoMono, sans-serif;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
